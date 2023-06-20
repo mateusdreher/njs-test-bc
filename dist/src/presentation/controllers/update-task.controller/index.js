@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.updateTaskController = void 0;
+const controller_1 = require("./controller");
+const use_case_1 = require("./../../../application/use-cases/update-task-use-case/use-case");
+const task_repository_1 = require("./../../../application/task.repository");
+const taskRepository = new task_repository_1.TaskRepository();
+const updateTaskUseCase = new use_case_1.UpdateTaskUseCase(taskRepository);
+const updateTaskController = new controller_1.UpdateTaskController(updateTaskUseCase);
+exports.updateTaskController = updateTaskController;
