@@ -1,6 +1,6 @@
-import { Task } from './../../../domain/task';
-import { IUseCase } from "../../../domain/interfaces/use-case.interface";
-import { ITaskRepository } from '../../../domain/interfaces/task.repository.interface';
+import { Task } from '../../domain/task';
+import { IUseCase } from "../../domain/interfaces/use-case.interface";
+import { ITaskRepository } from '../../domain/interfaces/task.repository.interface';
 interface CreateTaskUseCaseParams {
 	title: string;
 	description: string;

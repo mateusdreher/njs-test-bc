@@ -1,6 +1,6 @@
-import { ITaskRepository } from "../../../domain/interfaces/task.repository.interface";
-import { IUseCase } from "../../../domain/interfaces/use-case.interface";
-import { Task } from "../../../domain/task";
+import { ITaskRepository } from "../../domain/interfaces/task.repository.interface";
+import { IUseCase } from "../../domain/interfaces/use-case.interface";
+import { Task } from "../../domain/task";
 
 export class ListTasksUseCase implements IUseCase<undefined, Task[]> {
 	private readonly repository: ITaskRepository;

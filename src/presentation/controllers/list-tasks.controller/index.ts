@@ -1,5 +1,5 @@
 import { ListTasksController } from './controller';
-import { ListTasksUseCase } from './../../../application/use-cases/list-tasks-use-case/use-case';
+import { ListTasksUseCase } from '../../../application/use-cases/list-tasks-use-case';
 import { IUseCase } from '../../../domain/interfaces/use-case.interface';
 import { TaskRepository } from './../../../application/task.repository';
 import { ITaskRepository } from './../../../domain/interfaces/task.repository.interface';

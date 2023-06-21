@@ -1,5 +1,5 @@
 import { DeleteTaskController } from './controller';
-import { DeleteTaskUseCase } from './../../../application/use-cases/delete-task-use-case/use-case';
+import { DeleteTaskUseCase } from '../../../application/use-cases/delete-task-use-case';
 import { IUseCase } from '../../../domain/interfaces/use-case.interface';
 import { TaskRepository } from './../../../application/task.repository';
 import { ITaskRepository } from './../../../domain/interfaces/task.repository.interface';
